@@ -24,6 +24,13 @@ body {
     font-style: normal; 
 }
 
+.card-body {
+        border: 2px solid #000; /* Border style for the card */
+        border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+        padding: 20px; /* Optional: Add padding for content inside the card */
+        background-color: none !important;
+    }
+
 .line {
     border: solid rgb(21, 150, 201) 4px;
     opacity: 80%;
